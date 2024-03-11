@@ -1,0 +1,41 @@
+/* Header>> Navbar */
+
+.navbar{
+  box-shadow: #dc3545 2px 0px 10px 3px;
+  background: white;
+  padding-bottom: 12px;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.large_media_style, .small_media_style {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+}
+a{
+  cursor: pointer;
+}
+@media (max-width: 991px)  {
+  .small_media_style {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .large_media_style{
+    display: none;
+  }
+}
+
+
+.active_custom , .router-link-active {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 12px;
+  transition: all 0.3s;
+}

@@ -1,0 +1,12 @@
+.hover_custom{
+  background-color: #dc3545;
+  width: 360px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.hover_custom:hover {
+  background-color: #b9525c;
+}

@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid justify-content-between d-flex">
+    <a class="navbar-brand fw-bold fs-4" href="#" routerLink="/">Hello World</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleIcons()">
+      <fa-icon [icon]="currentIcon"></fa-icon>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+      <ul  class="navbar-nav me-3">
+        <li class="nav-item">
+          <a class="nav-link fs-5 me-3" aria-current="page"  routerLink="/" routerLinkActive="active_custom" >Who Am I ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5 me-3 " routerLink="portfolio" routerLinkActive="active_custom">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5 me-3" routerLink="certificate" routerLinkActive="router-link-active" >Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5 me-3" routerLink="skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5 me-3" routerLink="Contact-us" >Contact Us</a>
+        </li>
+      </ul>
+      <button class="btn large_media_style">Hire Me</button>
+      <!-- Don't Foret to Add Arabic Change Button -->
+    </div>
+    <button class="btn small_media_style btn-lg"><a href="#" routerLink="Contact-us" class="nav-link">Hire Me</a></button>
+  </div>
+</nav>

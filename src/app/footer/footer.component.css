@@ -1,0 +1,9 @@
+.container-fluid {
+  box-shadow: #dc3545 -6px -4px 8px 0px;
+  position: absolute;
+}
+@media (max-width: 431px) {
+  .my_media{
+    display: block;
+  }
+}

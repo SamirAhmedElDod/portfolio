@@ -1,0 +1,37 @@
+.hover_custom{
+  background-color: #dc3545;
+  width: 360px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.hover_custom:hover {
+  background-color: #b9525c;
+}
+img {
+  max-width: 350px;
+}
+.img-fluid{
+  transition: all 0.3s;
+
+}
+.img-fluid:hover{
+  transform:scale(1.1)
+}
+h3{
+  transition: all 0.3s;
+}
+h3:hover {
+  color: #dc3545;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1095px) {
+  img {
+    width: 250px;
+  }
+  .col-md-4{
+    /* margin: 0 20px; */
+  }
+}

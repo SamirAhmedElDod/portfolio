@@ -1,0 +1,43 @@
+.custom_hiegh{
+  min-height: 80vh;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+}
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+.hover_custom{
+  background-color: #dc3545;
+  width: 360px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.hover_custom:hover {
+  background-color: #b9525c;
+}
+input, textarea{
+  border: 1px solid #dc3545;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #dc3545;
+  outline: 0;
+  box-shadow: #dc3545 1px 3px 11px 1px;
+}
+@media (max-width: 767px) {
+  .custom {
+    text-align: center;
+  }
+  hr {
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+  }
+}
